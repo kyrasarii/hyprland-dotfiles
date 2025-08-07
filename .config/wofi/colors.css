@@ -1,0 +1,35 @@
+/* CSS variables for wallust
+ * You can use this template by adding the following to wallust.toml:
+css = { src = "colors.css", dst = "~/.config/" }
+ */
+
+:root {
+    --wallpaper: url("/home/kyrasarii/Wallpapers/unknown-cyberpunk-city.jpg");
+/*
+ * This file uses the GTK3 color definition syntax.
+ * It is not compatible with standard web CSS variables.
+ */
+
+/* Special colors */
+@define-color background: #171A1D;
+@define-color foreground: #F9EDDD;
+@define-color cursor: #B6CBCC;
+
+/* Base colors */
+@define-color color0:  #3E4144;
+@define-color color1:  #F56F5B;
+@define-color color2:  #74A9BB;
+@define-color color3:  #D890E6;
+@define-color color4:  #FCB27D;
+@define-color color5:  #FFB480;
+@define-color color6:  #EDCB9E;
+@define-color color7:  #EDDDC6;
+@define-color color8:  #A69A8B;
+@define-color color9:  #F56F5B;
+@define-color color10: #74A9BB;
+@define-color color11: #D890E6;
+@define-color color12: #FCB27D;
+@define-color color13: #FFB480;
+@define-color color14: #EDCB9E;
+@define-color color15: #EDDDC6;
+}

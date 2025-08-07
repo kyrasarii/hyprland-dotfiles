@@ -1,0 +1,31 @@
+/* CSS variables for wallust
+ * You can use this template by adding the following to wallust.toml:
+css = { src = "colors.css", dst = "~/.config/" }
+ */
+
+:root {
+    --wallpaper: url("/home/kyrasarii/Wallpapers/unknown-cyberpunk-city.jpg");
+
+    /* Special */
+    --background: #171A1D;
+    --foreground: #F9EDDD;
+    --cursor: #B6CBCC;
+
+    /* Colors */
+    --color0:  #3E4144;
+    --color1:  #F56F5B;
+    --color2:  #74A9BB;
+    --color3:  #D890E6;
+    --color4:  #FCB27D;
+    --color5:  #FFB480;
+    --color6:  #EDCB9E;
+    --color7:  #EDDDC6;
+    --color8:  #A69A8B;
+    --color9:  #F56F5B;
+    --color10: #74A9BB;
+    --color11: #D890E6;
+    --color12: #FCB27D;
+    --color13: #FFB480;
+    --color14: #EDCB9E;
+    --color15: #EDDDC6;
+}

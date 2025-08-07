@@ -1,0 +1,46 @@
+
+@import ".config/colors/colors.css";
+window {
+    background-color: {{background}};
+    border: 2px solid {{color8}};
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#outer-box {
+    margin: 10px;
+}
+
+#input {
+    background-color: {{color1}};
+    color: {{foreground}};
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#scroll {
+    background-color: transparent;
+}
+
+#entry {
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin: 2px 0;
+}
+
+#entry:selected {
+    background-color: {{color8}};
+    color: {{foreground}};
+    border: none;
+}
+
+#text {
+    color: {{color8}};
+}
+
+#text:selected {
+    color: {{foreground}};
+}
