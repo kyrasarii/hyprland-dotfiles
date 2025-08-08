@@ -1,5 +1,0 @@
-# Wofi configuration file
-# Set the style file to use our wallust-generated colors
-
-style = ~/.config/wofi/style.css
-gtk-application-prefer-dark-theme = true
