@@ -28,7 +28,6 @@ window {
     border: 2px solid;
     border-radius: 10px;
     border-color: @window-border;
-    background-color: rgba(@window-background, 0.5);
     cursor: "default";
 }
 

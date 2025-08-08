@@ -1,9 +1,0 @@
-2025-08-08 20:12:16.398 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
-2025-08-08 20:12:16.398 [info] Creating repo client with backend url: https://repo42.cursor.sh
-2025-08-08 20:12:16.627 [warning] No repository found: /home/kyrasarii/.config (candidates: )
-2025-08-08 20:12:16.628 [error] Git indexing job failed: Error: Error creating embedding client: "/home/kyrasarii/.config" does not appear to be a git repository
-
-Caused by:
-    Missing HEAD at '.git/HEAD'
-2025-08-08 20:15:08.262 [info] MultiBranchIndexJob dispose
-2025-08-08 20:15:08.262 [info] Aborting multi-branch indexing job.

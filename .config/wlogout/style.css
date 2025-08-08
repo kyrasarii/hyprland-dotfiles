@@ -14,7 +14,7 @@
 }
 
 window {
-	background-color: @window-background;
+	background-color: alpha(@background,0.8);
 }
 
 button {
@@ -30,8 +30,10 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: @color12;
+	background-color: alpha(@color12,0.0);  
 	outline-style: none;
+  border-width: 2px;
+  border-color: @color12;
 }
 
 #lock {

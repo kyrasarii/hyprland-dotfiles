@@ -1,0 +1,103 @@
+2025-08-08 23:13:24.097 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 23:13:24.097 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 23:13:24.097 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 23:13:24.097 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 23:13:24.098 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 23:13:24.098 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 23:13:24.098 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 23:13:24.098 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 23:13:24.098 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-08 23:13:24.167 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 22ms.
+2025-08-08 23:13:24.403 [error] Error: The editor could not be opened because the file was not found.
+    at k_n.handleSetInputError (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5913:31596)
+    at async k_n.setInput (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5913:30605)
+    at async xtn.doSetInput (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:786:29101)
+    at async xtn.doOpenEditor (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:786:26858)
+    at async xtn.openEditor (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:786:25783)
+    at async vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4276:32661
+2025-08-08 23:13:24.475 [info] Started local extension host with pid 33330.
+2025-08-08 23:13:24.885 [warning] No search provider registered for scheme: file, waiting
+2025-08-08 23:13:27.291 [info] [perf] Render performance baseline is 14ms
+2025-08-08 23:13:52.089 [info] [Extensions]: Checking for updates. Reason: Product update
+2025-08-08 23:17:54.530 [error] Maximum call stack size exceeded: RangeError: Maximum call stack size exceeded
+    at D0t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:34181)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31648)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609)
+    at eVc (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:32275)
+    at JH (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:276:31609) Maximum call stack size exceeded
+2025-08-08 23:18:03.353 [info] Extension host (LocalProcess pid: 33330) is unresponsive.
+2025-08-08 23:18:03.430 [info] Extension host (LocalProcess pid: 33330) is responsive.
+2025-08-08 23:18:32.867 [info] Extension host (LocalProcess pid: 33330) is unresponsive.
+2025-08-08 23:18:32.945 [info] Extension host (LocalProcess pid: 33330) is responsive.
+2025-08-08 23:18:38.946 [info] Extension host (LocalProcess pid: 33330) is unresponsive.
+2025-08-08 23:18:39.023 [info] Extension host (LocalProcess pid: 33330) is responsive.
+2025-08-08 23:18:54.100 [info] Extension host (LocalProcess pid: 33330) is unresponsive.
+2025-08-08 23:18:54.109 [info] Extension host (LocalProcess pid: 33330) is responsive.
+2025-08-08 23:19:08.111 [info] Extension host (LocalProcess pid: 33330) is unresponsive.
+2025-08-08 23:19:08.189 [info] Extension host (LocalProcess pid: 33330) is responsive.
+2025-08-08 23:19:17.190 [info] Extension host (LocalProcess pid: 33330) is unresponsive.
+2025-08-08 23:19:17.269 [info] Extension host (LocalProcess pid: 33330) is responsive.
+2025-08-08 23:20:13.366 [info] Extension host (LocalProcess pid: 33330) is unresponsive.
+2025-08-08 23:20:13.444 [info] Extension host (LocalProcess pid: 33330) is responsive.
+2025-08-08 23:20:18.445 [info] Extension host (LocalProcess pid: 33330) is unresponsive.
+2025-08-08 23:20:18.523 [info] Extension host (LocalProcess pid: 33330) is responsive.
+2025-08-08 23:20:42.006 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.workingCopyHistory
