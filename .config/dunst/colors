@@ -29,27 +29,27 @@ progress_bar_frame_width = 1
 separator_height = 2
 ignore_dbusclose = false
 force_xwayland = false
-frame_color = "#DE8996"
-highlight = "#C9BEC5"
-separator_color= "#FEF8E6"
+frame_color = "#B3B0B1"
+highlight = "#D3BCBB"
+separator_color= "#F6E9DE"
 
 [experimental]
 per_monitor_dpi = false
 
 [urgency_low]
 timeout = 2
-background = "#18191Cee"
-foreground = "#FEF8E6"
-frame_color = "#DE8996"
+background = "#05040Aee"
+foreground = "#F6E9DE"
+frame_color = "#B3B0B1"
 
 [urgency_normal]
 timeout = 3
-background = "#18191C80"
-foreground = "#FEF8E6"
-frame_color = "#FDECB7"
+background = "#05040A80"
+foreground = "#F6E9DE"
+frame_color = "#E7C1A1"
 
 [urgency_critical]
 timeout = 4
-background = "#18191Cee"
-foreground = "#FEF8E6"
-frame_color = "#785B5E"
+background = "#05040Aee"
+foreground = "#F6E9DE"
+frame_color = "#6A667A"
