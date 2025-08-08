@@ -8,13 +8,13 @@
 
 window#waybar {
   background: alpha(@background, 0.8);
-  border: 2px solid @background;
+  border: 2px solid @color12;
   border-radius: 10px;
 }
 
 tooltip {
   background: rgba(0, 0, 0, 0.1);
-  border: 5px solid @color5;
+  border: 5px solid @color12;
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -31,62 +31,62 @@ tooltip {
 #battery.warning
 #battery.critical
 #workspaces button {
-  color: @color5;
+  color: @color12;
   padding-top: 10px;
   padding-bottom: 10px;
   transition: all 0.5s ease-in-out;
 }
 
 #workspaces button.active {
-  color: @color5;
+  color: @color12;
   transition: all 0.5s ease-in-out;
 }
 
 #clock.2 {
-  color: @color4;
+  color: @color12;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
 }
 
 #custom-separator {
-  color: @color5;
+  color: @color12;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #clock {
-  color: @color5;
+  color: @color12;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #tray {
-  color: @color5;
+  color: @color12;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #network {
-  color: @color5;
+  color: @color12;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #backlight {
-  color: @color4;
+  color: @color12;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #pulseaudio {
-  color: @color5;
+  color: @color12;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #battery {
-  color: @color4;
+  color: @color12;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;

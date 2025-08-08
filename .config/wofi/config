@@ -1,5 +1,0 @@
-mode=drun
-height=30%
-width=30%
-prompt=Run: 
-always_parse_args=true

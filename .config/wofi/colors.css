@@ -1,35 +1,24 @@
-/* CSS variables for wallust
- * You can use this template by adding the following to wallust.toml:
-css = { src = "colors.css", dst = "~/.config/" }
- */
+/* GTK-compatible colors for wofi from wallust */
 
-:root {
-    --wallpaper: url("/home/kyrasarii/Wallpapers/unknown-cyberpunk-city.jpg");
-/*
- * This file uses the GTK3 color definition syntax.
- * It is not compatible with standard web CSS variables.
- */
-
-/* Special colors */
-@define-color background: #171A1D;
-@define-color foreground: #F9EDDD;
-@define-color cursor: #B6CBCC;
+@define-color background #0E1113;
+@define-color foreground #C7E1EF;
+@define-color cursor     #638DA9;
 
 /* Base colors */
-@define-color color0:  #3E4144;
-@define-color color1:  #F56F5B;
-@define-color color2:  #74A9BB;
-@define-color color3:  #D890E6;
-@define-color color4:  #FCB27D;
-@define-color color5:  #FFB480;
-@define-color color6:  #EDCB9E;
-@define-color color7:  #EDDDC6;
-@define-color color8:  #A69A8B;
-@define-color color9:  #F56F5B;
-@define-color color10: #74A9BB;
-@define-color color11: #D890E6;
-@define-color color12: #FCB27D;
-@define-color color13: #FFB480;
-@define-color color14: #EDCB9E;
-@define-color color15: #EDDDC6;
-}
+@define-color color0     #36393C;
+@define-color color1     #012546;
+@define-color color2     #003864;
+@define-color color3     #013C68;
+@define-color color4     #377498;
+@define-color color5     #56A6CF;
+@define-color color6     #5EAAD1;
+@define-color color7     #A6CCE0;
+@define-color color8     #748F9D;
+@define-color color9     #012546;
+@define-color color10    #003864;
+@define-color color11    #013C68;
+@define-color color12    #377498;
+@define-color color13    #56A6CF;
+@define-color color14    #5EAAD1;
+@define-color color15    #A6CCE0;
+

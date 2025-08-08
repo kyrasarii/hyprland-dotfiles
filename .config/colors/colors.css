@@ -4,28 +4,28 @@ css = { src = "colors.css", dst = "~/.config/" }
  */
 
 :root {
-    --wallpaper: url("/home/kyrasarii/Wallpapers/unknown-cyberpunk-city.jpg");
+    --wallpaper: url("/home/kyrasarii/Wallpapers/205.jpg");
 
     /* Special */
-    --background: #171A1D;
-    --foreground: #F9EDDD;
-    --cursor: #B6CBCC;
+    --background: #1B1C1F;
+    --foreground: #FEF8E6;
+    --cursor: #B2CECB;
 
     /* Colors */
-    --color0:  #3E4144;
-    --color1:  #F56F5B;
-    --color2:  #74A9BB;
-    --color3:  #D890E6;
-    --color4:  #FCB27D;
-    --color5:  #FFB480;
-    --color6:  #EDCB9E;
-    --color7:  #EDDDC6;
-    --color8:  #A69A8B;
-    --color9:  #F56F5B;
-    --color10: #74A9BB;
-    --color11: #D890E6;
-    --color12: #FCB27D;
-    --color13: #FFB480;
-    --color14: #EDCB9E;
-    --color15: #EDDDC6;
+    --color0:  #414246;
+    --color1:  #785B5E;
+    --color2:  #65A3AF;
+    --color3:  #B192A4;
+    --color4:  #DE8996;
+    --color5:  #C9BEC5;
+    --color6:  #FDECB7;
+    --color7:  #F6EDD2;
+    --color8:  #ACA693;
+    --color9:  #785B5E;
+    --color10: #65A3AF;
+    --color11: #B192A4;
+    --color12: #DE8996;
+    --color13: #C9BEC5;
+    --color14: #FDECB7;
+    --color15: #F6EDD2;
 }
