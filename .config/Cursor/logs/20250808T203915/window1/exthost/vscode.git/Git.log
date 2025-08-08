@@ -1,0 +1,51 @@
+2025-08-08 20:39:20.141 [info] [main] Log level: Info
+2025-08-08 20:39:20.141 [info] [main] Validating found git in: "git"
+2025-08-08 20:39:20.141 [info] [main] Using git "2.50.1" from "git"
+2025-08-08 20:39:20.141 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-08 20:39:20.141 [info] > git rev-parse --show-toplevel [5ms]
+2025-08-08 20:39:20.141 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.141 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-08 20:39:20.141 [info] > git config --get remote.origin.url [26ms]
+2025-08-08 20:39:20.141 [info] > git rev-parse --show-toplevel [11ms]
+2025-08-08 20:39:20.141 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.157 [info] > git rev-parse --show-toplevel [11ms]
+2025-08-08 20:39:20.157 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.177 [info] > git rev-parse --show-toplevel [2ms]
+2025-08-08 20:39:20.177 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.621 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-08-08 20:39:20.621 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.621 [info] > git rev-parse --show-toplevel [59ms]
+2025-08-08 20:39:20.621 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.668 [info] > git remote get-url --push origin [31ms]
+2025-08-08 20:39:20.668 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.669 [info] > git rev-parse --verify origin/main [4ms]
+2025-08-08 20:39:20.669 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.675 [info] > git rev-parse --verify origin/master [2ms]
+2025-08-08 20:39:20.675 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.680 [info] > git rev-parse --verify origin/develop [1ms]
+2025-08-08 20:39:20.680 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.689 [info] > git branch -r [5ms]
+2025-08-08 20:39:20.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.698 [info] > git config --get init.defaultBranch [4ms]
+2025-08-08 20:39:20.890 [info] > git remote get-url --push origin [3ms]
+2025-08-08 20:39:20.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:20.895 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-08 20:39:20.895 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:39:29.287 [info] > git config --global user.name [0ms]
+2025-08-08 20:39:29.294 [info] > git config --global user.email [1ms]
+2025-08-08 20:39:29.294 [info] [main] Stored git author name in global state: kyrasarii <kyrasarii@gmail.com>
+2025-08-08 20:44:16.858 [info] > git rev-parse --show-toplevel [1ms]
+2025-08-08 20:44:16.858 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:44:43.789 [info] > git remote get-url --push origin [1ms]
+2025-08-08 20:44:43.789 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:45:23.378 [info] > git remote get-url --push origin [1ms]
+2025-08-08 20:45:23.378 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:47:32.819 [info] > git remote get-url --push origin [7ms]
+2025-08-08 20:47:32.819 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:48:44.551 [info] > git remote get-url --push origin [0ms]
+2025-08-08 20:48:44.551 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:49:16.689 [info] > git config user.email [0ms]
+2025-08-08 20:49:16.697 [info] > git log --pretty=format:%H<|ENT|><|RY|>%s<|COM|><|MIT|> -n 10 --author kyrasarii@gmail.com [0ms]
+2025-08-08 20:49:16.697 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-08-08 20:49:16.859 [info] > git rev-parse --show-toplevel [0ms]
+2025-08-08 20:49:16.859 [info] fatal: not a git repository (or any of the parent directories): .git

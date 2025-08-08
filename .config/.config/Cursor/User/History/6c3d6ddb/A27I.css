@@ -1,0 +1,62 @@
+/* CSS template for wlogout with wallust
+ * You can use this template by adding the following to wallust.toml:
+ * wlogout = { src = "wlogout.css", dst = "~/.config/wlogout/style.css" }
+ * wlogout-colors = { src = "wlogout-colors.css", dst = "~/.config/wlogout/colors.css" }
+ * And then import the colors with:
+ * @import url("colors.css");
+ */
+
+@import url("colors.css");
+
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: alpha(@background, 0.9);
+	backdrop-filter: blur(10px);
+}
+
+button {
+    border-radius: 10px;
+    border-color: @color1;
+   	text-decoration-color: @foreground;
+    color: @foreground;
+	background-color: alpha(@background, 0.9);
+	border-style: solid;
+	border-width: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	font-family: "Fira Code";
+}
+
+button:focus, button:active, button:hover {
+	background-color: @color1;
+	outline-style: none;
+}
+
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}

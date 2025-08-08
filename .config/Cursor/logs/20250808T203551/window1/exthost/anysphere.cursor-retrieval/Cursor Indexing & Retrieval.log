@@ -1,0 +1,157 @@
+2025-08-08 20:35:55.263 [error] Error getting repo info: Failed to execute git
+2025-08-08 20:35:55.263 [error] Error: Failed to execute git
+	at t.Git._exec (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:34408)
+	at async t.Git.exec (/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:33531)
+	at async t.GitProvider.executeGitCommandStable (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1347452)
+	at async t.GitProvider.getRepoInfo (/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1320321)
+2025-08-08 20:35:55.263 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-08-08 20:35:55.263 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-08-08 20:35:55.263 [warning] Failed to get symbolic ref: Failed to execute git
+2025-08-08 20:35:55.263 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/kyrasarii/.config/.git/HEAD')
+2025-08-08 20:35:55.263 [info] Using existing keys for an index
+2025-08-08 20:35:55.263 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-08-08 20:35:55.264 [warning] Failed to get branches from remote: Failed to execute git
+2025-08-08 20:35:55.270 [warning] Failed to get default branch from git config: Failed to execute git
+2025-08-08 20:35:55.499 [info] Using existing keys for an index
+2025-08-08 20:35:55.499 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-08-08 20:35:55.505 [info] Setting global status from status tracker: synced
+2025-08-08 20:35:55.505 [info] Doing a startup handshake.
+2025-08-08 20:35:55.746 [info] Finished computing merkle tree in 230.78012799999988 ms.
+2025-08-08 20:35:55.758 [info] Doing the initial handshake with hash: 6ddc06863d160dd9ed74593227b84d73f32fe14071213992e7d4bc3eab70f5b4
+2025-08-08 20:35:55.768 [info] Computed simhash vector of length: 256
+2025-08-08 20:35:55.768 [info] Path key hash: 50d0cb4ae6e6b2880775ed694f260264e8687394b3b8037fc61bf7259a70b049
+2025-08-08 20:35:55.768 [info] Handshake start
+2025-08-08 20:35:56.209 [info] Handshake timing: 442.7271460000002, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a2ab83e4-0164-4641-8565-2ece5e1a7ac9","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-08-08 20:35:56.209 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"a2ab83e4-0164-4641-8565-2ece5e1a7ac9","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-08-08 20:35:56.209 [info] Starting fast remote sync.
+2025-08-08 20:35:56.209 [info] Total num embeddable files: 384
+2025-08-08 20:35:56.210 [info] Root hash: 6ddc06863d160dd9ed74593227b84d73f32fe14071213992e7d4bc3eab70f5b4
+2025-08-08 20:35:56.210 [info] In the out of sync case.
+2025-08-08 20:35:56.211 [info] Waiting on semaphore to be released 1
+2025-08-08 20:35:56.412 [info] Waiting on semaphore to be released 1
+2025-08-08 20:35:56.412 [info] [startSync]: sending sync merkle subtree batch of size 9
+2025-08-08 20:35:56.623 [info] Waiting on semaphore to be released 1
+2025-08-08 20:35:56.825 [info] Waiting on semaphore to be released 1
+2025-08-08 20:35:56.825 [info] [startSync]: sending sync merkle subtree batch of size 14
+2025-08-08 20:35:57.025 [info] Waiting on semaphore to be released 1
+2025-08-08 20:35:57.227 [info] Waiting on semaphore to be released 1
+2025-08-08 20:35:57.227 [info] [startSync]: sending sync merkle subtree batch of size 10
+2025-08-08 20:35:57.426 [info] Waiting on semaphore to be released 1
+2025-08-08 20:35:57.627 [info] Waiting on semaphore to be released 1
+2025-08-08 20:35:57.627 [info] [startSync]: sending sync merkle subtree batch of size 6
+2025-08-08 20:35:57.827 [info] Waiting on semaphore to be released 1
+2025-08-08 20:35:57.827 [info] [startSync]: sending sync merkle subtree batch of size 3
+2025-08-08 20:35:58.028 [info] Waiting on semaphore to be released 1
+2025-08-08 20:35:58.028 [info] [startSync]: sending sync merkle subtree batch of size 4
+2025-08-08 20:35:58.226 [info] setting numJobsToGo to 91
+2025-08-08 20:35:58.230 [info] [startSync]: numJobs: 91
+2025-08-08 20:35:58.728 [info] Uploading 91 files.
+2025-08-08 20:35:58.728 [info] Total number of files to embed: 384
+2025-08-08 20:35:58.728 [info] Not aborted
+2025-08-08 20:35:58.728 [info] Starting while loop.
+2025-08-08 20:35:58.731 [info] syncing batch of 2 files and 637 bytes
+2025-08-08 20:36:01.797 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./hypr/current-wallpaper
+2025-08-08 20:36:01.797 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./hypr/colors.conf
+2025-08-08 20:36:01.798 [info] syncing batch of 4 files and 3978 bytes
+2025-08-08 20:36:06.712 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./kitty/colors.conf
+2025-08-08 20:36:06.712 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./wallust/wallust.toml
+2025-08-08 20:36:06.712 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./colors/colors.json
+2025-08-08 20:36:06.712 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./colors/colors.css
+2025-08-08 20:36:06.715 [info] syncing batch of 8 files and 1147077 bytes
+2025-08-08 20:36:15.621 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./dunst/colors
+2025-08-08 20:36:15.621 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./waybar/colors.css
+2025-08-08 20:36:15.621 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./wlogout/colors.css
+2025-08-08 20:36:15.621 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/WebStorage/QuotaManager
+2025-08-08 20:36:15.621 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/sentry/scope_v3.json
+2025-08-08 20:36:15.621 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/sentry/session.json
+2025-08-08 20:36:15.621 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/GPUCache/data_2
+2025-08-08 20:36:15.622 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/GPUCache/data_0
+2025-08-08 20:36:15.625 [info] syncing batch of 16 files and 1612860 bytes
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/GPUCache/index
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/GPUCache/data_1
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/DawnWebGPUCache/index
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/DawnWebGPUCache/data_1
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/DawnGraphiteCache/index
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/DawnGraphiteCache/data_1
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Session Storage/LOG
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Session Storage/LOG.old
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Session Storage/000003.log
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./walker/themes/kyrasarii/kyrasarii.css
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203216/main.log
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/globalStorage/storage.json
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Local Storage/leveldb/LOG.old
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Local Storage/leveldb/LOG
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Cache/Cache_Data/0ecfeb832326d4cc_0
+2025-08-08 20:36:34.157 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Cache/Cache_Data/b79dc5a41deb59e5_0
+2025-08-08 20:36:34.165 [info] syncing batch of 20 files and 211203 bytes
+2025-08-08 20:36:34.169 [info] syncing batch of 12 files and 79388 bytes
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Service Worker/ScriptCache/4cb013792b196a35_1
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/History/-77039c24/Imwd.toml
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/CachedData/d01860bc5f5a36b62f8a77cd42578126270db340/chrome/js/1b626dd2c7573a29_0
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/CachedData/d01860bc5f5a36b62f8a77cd42578126270db340/chrome/js/3f2eab7f31ce53c8_0
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/CachedData/d01860bc5f5a36b62f8a77cd42578126270db340/chrome/js/4b48f5b86b615a15_0
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/CachedData/d01860bc5f5a36b62f8a77cd42578126270db340/chrome/js/800187812bb075a4_0
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/CachedData/d01860bc5f5a36b62f8a77cd42578126270db340/chrome/js/8c6ab794cddcc29e_0
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/CachedData/d01860bc5f5a36b62f8a77cd42578126270db340/chrome/js/9d29690bc1d66539_0
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/CachedData/d01860bc5f5a36b62f8a77cd42578126270db340/chrome/js/a3ef2dd74a8ece09_0
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/terminal.log
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/views.log
+2025-08-08 20:36:37.158 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/notebook.rendering.log
+2025-08-08 20:36:37.160 [info] syncing batch of 20 files and 23460 bytes
+2025-08-08 20:36:37.161 [info] syncing batch of 4 files and 495 bytes
+2025-08-08 20:36:38.048 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/main.log
+2025-08-08 20:36:38.048 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/remoteTunnelService.log
+2025-08-08 20:36:38.048 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/userDataSync.log
+2025-08-08 20:36:38.048 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/network-shared.log
+2025-08-08 20:36:38.050 [info] syncing batch of 5 files and 4860 bytes
+2025-08-08 20:36:39.072 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/History/-3eb25dbf/pYHT.css
+2025-08-08 20:36:39.072 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/History/-3eb25dbf/entries.json
+2025-08-08 20:36:39.072 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/History/76d3fb2b/egqL.css
+2025-08-08 20:36:39.072 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/History/76d3fb2b/aa0P.css
+2025-08-08 20:36:39.072 [info] Completed 50 jobs for absoluteDirectoryPath: undefined
+2025-08-08 20:36:39.072 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/History/76d3fb2b/entries.json
+2025-08-08 20:36:39.276 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/anysphere.cursor-always-local/Filesync.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/anysphere.cursor-always-local/Cursor Tab.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/anysphere.cursor-always-local/Cursor Always Local.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/vscode.css-language-features/CSS Language Server.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/vscode.git/Git.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/vscode.github/GitHub.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/exthost.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/output_logging_20250808T203553/1-RCP Server.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/anysphere.cursor-retrieval/Cursor Git Indexing.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/anysphere.cursor-retrieval/Cursor Git Graph.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/anysphere.cursor-retrieval/MCP Logs.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/exthost/extHostTelemetry.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/network.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/output_20250808T203553/tasks.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/window1/renderer.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/editSessions.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/telemetry.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/ptyhost.log
+2025-08-08 20:36:39.277 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203551/sharedprocess.log
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Cache/Cache_Data/ea51f17a95d8812e_0
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Service Worker/Database/000003.log
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Service Worker/Database/LOG
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Service Worker/Database/LOG.old
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Service Worker/ScriptCache/index-dir/the-real-index
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Cache/Cache_Data/index-dir/the-real-index
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/workspaceStorage/ab713b7640f9a7bd38e3fdb6b5c68b95/state.vscdb.backup
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/workspaceStorage/ab713b7640f9a7bd38e3fdb6b5c68b95/state.vscdb
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/History/-77039c24/entries.json
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203216/window1/exthost/exthost.log
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/User/workspaceStorage/ab713b7640f9a7bd38e3fdb6b5c68b95/anysphere.cursor-retrieval/embeddable_files.txt
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/CachedData/d01860bc5f5a36b62f8a77cd42578126270db340/chrome/js/index-dir/the-real-index
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203216/window1/exthost/anysphere.cursor-always-local/Filesync.log
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203216/window1/exthost/anysphere.cursor-retrieval/Cursor Git Indexing.log
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203216/window1/exthost/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203216/window1/exthost/vscode.git/Git.log
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./walker/colors.css
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./wallust/templates/walker.css
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/logs/20250808T203216/ptyhost.log
+2025-08-08 20:37:06.517 [info] Completed job successfully: a2ab83e4-0164-4641-8565-2ece5e1a7ac9 ./Cursor/Service Worker/ScriptCache/4cb013792b196a35_0
+2025-08-08 20:37:06.722 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-08-08 20:37:10.201 [info] Finished indexing repository.
+2025-08-08 20:37:10.201 [info] Indexing job successfully done or aborted.
+2025-08-08 20:37:17.789 [info] multiCodebaseIndexingJob dispose
+2025-08-08 20:37:17.789 [info] Aborting indexing job.

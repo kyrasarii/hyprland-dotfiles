@@ -1,0 +1,42 @@
+2025-08-08 20:17:18.635 [error] Failed to check if file sync is enabled for user {}
+2025-08-08 20:17:18.635 [error] Failed to fetch fsConfig File sync is disabled
+2025-08-08 20:17:18.635 [error] Failed to fetch fsConfig File sync is disabled
+2025-08-08 20:17:18.816 [info] [registerEventListeners] Registering event listeners
+2025-08-08 20:17:22.549 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-08-08 20:17:22.755 [info] Fetched fsConfig in 204.82724999999937ms
+2025-08-08 20:17:22.755 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-08-08 20:17:25.194 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-08-08 20:17:25.196 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-08-08 20:17:25.369 [info] Fetched fsConfig in 172.45647999999892ms
+2025-08-08 20:17:25.369 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-08-08 20:17:25.370 [info] File sync enabled status: true
+2025-08-08 20:17:25.370 [info] Starting sync of visible tabs
+2025-08-08 20:17:25.370 [info] Fetched fsConfig in 175.56514699999934ms
+2025-08-08 20:17:25.370 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-08-08 20:17:25.541 [info] Uploaded file wlogout/style.css modelVersion=3 in 169.68434100000013ms
+2025-08-08 20:17:25.541 [info] Synced all visible tabs in 172.08667100000093ms
+2025-08-08 20:17:51.528 [info] Synced file wlogout/style.css modelVersion=5 in 280.7780819999971ms
+2025-08-08 20:19:02.185 [info] Synced file wlogout/style.css modelVersion=7 in 636.4874310000014ms
+2025-08-08 20:19:07.612 [info] Synced file wlogout/style.css modelVersion=9 in 203.75373299999046ms
+2025-08-08 20:19:11.708 [info] Synced file wlogout/style.css modelVersion=11 in 261.6977049999987ms
+2025-08-08 20:19:17.341 [info] Synced file wlogout/style.css modelVersion=12 in 218.78364700000384ms
+2025-08-08 20:19:46.457 [info] Synced file wlogout/style.css modelVersion=13 in 189.23507700001937ms
+2025-08-08 20:19:47.241 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-08-08 20:19:47.410 [info] Fetched fsConfig in 168.41983800000162ms
+2025-08-08 20:19:47.410 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-08-08 20:19:47.410 [info] File sync enabled status: true
+2025-08-08 20:19:47.410 [info] Starting sync of visible tabs
+2025-08-08 20:19:47.410 [info] Synced all visible tabs in 0.08348000000114553ms
+2025-08-08 20:19:52.464 [info] Synced file wlogout/style.css modelVersion=15 in 259.0674089999811ms
+2025-08-08 20:20:13.291 [info] Handled visible editors change in 0.5924170000071172ms
+2025-08-08 20:20:16.666 [info] Handled visible editors change in 0.541931999992812ms
+2025-08-08 20:21:14.999 [info] Synced file wlogout/style.css modelVersion=17 in 197.61984999998822ms
+2025-08-08 20:22:02.863 [info] Synced file wlogout/style.css modelVersion=19 in 170.17981900001178ms
+2025-08-08 20:22:27.806 [info] Synced file wlogout/style.css modelVersion=21 in 263.75209999998333ms
+2025-08-08 20:27:24.745 [info] Synced file wlogout/style.css modelVersion=22 in 167.70652800006792ms
+2025-08-08 20:27:24.748 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-08-08 20:27:24.920 [info] Fetched fsConfig in 172.27153799997177ms
+2025-08-08 20:27:24.920 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-08-08 20:27:24.920 [info] File sync enabled status: true
+2025-08-08 20:27:24.920 [info] Starting sync of visible tabs
+2025-08-08 20:27:24.920 [info] Synced all visible tabs in 0.0933420000365004ms

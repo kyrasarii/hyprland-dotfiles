@@ -1,0 +1,27 @@
+2025-08-08 20:35:55.263 [error] Failed to check if file sync is enabled for user {}
+2025-08-08 20:35:55.263 [error] Failed to fetch fsConfig File sync is disabled
+2025-08-08 20:35:55.263 [error] Failed to fetch fsConfig File sync is disabled
+2025-08-08 20:35:55.499 [info] [registerEventListeners] Registering event listeners
+2025-08-08 20:35:56.612 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-08-08 20:35:56.783 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-08-08 20:35:57.126 [info] Fetched fsConfig in 342.19772699999976ms
+2025-08-08 20:35:57.126 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-08-08 20:35:57.126 [info] File sync enabled status: true
+2025-08-08 20:35:57.126 [info] Starting sync of visible tabs
+2025-08-08 20:35:57.126 [info] Synced all visible tabs in 0.03845100000035018ms
+2025-08-08 20:35:57.132 [info] Fetched fsConfig in 520.2378749999998ms
+2025-08-08 20:35:57.132 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-08-08 20:35:57.611 [info] Starting sync of visible tabs
+2025-08-08 20:35:57.611 [info] Synced all visible tabs in 0.07847400000082416ms
+2025-08-08 20:35:57.803 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-08-08 20:35:58.008 [info] Fetched fsConfig in 204.64612000000034ms
+2025-08-08 20:35:58.008 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-08-08 20:36:33.775 [info] Uploaded file walker/themes/kyrasarii/kyrasarii.css modelVersion=4 in 175.06185900000128ms
+2025-08-08 20:36:33.776 [info] Uploaded file walker/themes/kyrasarii/kyrasarii.css modelVersion=4 in 173.56868199999735ms
+2025-08-08 20:36:33.801 [info] Uploaded file walker/themes/kyrasarii/kyrasarii.css modelVersion=5 in 172.4358329999959ms
+2025-08-08 20:36:33.820 [info] Uploaded file walker/themes/kyrasarii/kyrasarii.css modelVersion=5 in 169.42665600000328ms
+2025-08-08 20:36:33.825 [info] Uploaded file walker/themes/kyrasarii/kyrasarii.css modelVersion=5 in 177.46434099999897ms
+2025-08-08 20:36:47.571 [info] Synced file walker/themes/kyrasarii/kyrasarii.css modelVersion=7 in 212.26959299999726ms
+2025-08-08 20:36:54.944 [info] Synced file walker/themes/kyrasarii/kyrasarii.css modelVersion=9 in 254.37726799999655ms
+2025-08-08 20:37:00.883 [info] Synced file walker/themes/kyrasarii/kyrasarii.css modelVersion=11 in 259.2122139999992ms
+2025-08-08 20:37:08.563 [info] Synced file walker/themes/kyrasarii/kyrasarii.css modelVersion=13 in 259.1322680000012ms

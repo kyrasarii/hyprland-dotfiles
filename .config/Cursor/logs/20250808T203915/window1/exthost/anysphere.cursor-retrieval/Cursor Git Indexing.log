@@ -1,0 +1,23 @@
+2025-08-08 20:39:20.178 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-08-08 20:39:20.178 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-08-08 20:39:20.397 [warning] No repository found: /home/kyrasarii/.config (candidates: )
+2025-08-08 20:39:20.400 [error] Git indexing job failed: Error: Error creating embedding client: "/home/kyrasarii/.config" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-08-08 20:44:20.406 [info] doUpdate: Disposing completed index job...
+2025-08-08 20:44:20.406 [info] MultiBranchIndexJob dispose
+2025-08-08 20:44:20.406 [info] Aborting multi-branch indexing job.
+2025-08-08 20:44:20.406 [error] Git indexing job failed: Error: Error creating embedding client: "/home/kyrasarii/.config" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-08-08 20:49:20.406 [info] doUpdate: Disposing completed index job...
+2025-08-08 20:49:20.406 [info] MultiBranchIndexJob dispose
+2025-08-08 20:49:20.406 [info] Aborting multi-branch indexing job.
+2025-08-08 20:49:20.408 [error] Git indexing job failed: Error: Error creating embedding client: "/home/kyrasarii/.config" does not appear to be a git repository
+
+Caused by:
+    Missing HEAD at '.git/HEAD'
+2025-08-08 20:49:21.544 [info] MultiBranchIndexJob dispose
+2025-08-08 20:49:21.544 [info] Aborting multi-branch indexing job.

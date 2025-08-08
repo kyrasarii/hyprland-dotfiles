@@ -1,0 +1,31 @@
+2025-08-08 20:17:16.583 [info] Extension host with pid 73633 started
+2025-08-08 20:17:16.583 [info] Skipping acquiring lock for /home/kyrasarii/.config/Cursor/User/workspaceStorage/ab713b7640f9a7bd38e3fdb6b5c68b95.
+2025-08-08 20:17:16.765 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-08 20:17:16.790 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-08-08 20:17:17.333 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-08 20:17:17.542 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-08 20:17:17.590 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-08 20:17:17.668 [info] Eager extensions activated
+2025-08-08 20:17:17.693 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 20:17:17.911 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 20:17:17.987 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 20:17:18.241 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 20:17:18.325 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 20:17:18.487 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 20:17:18.489 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 20:20:13.319 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-08-08 20:20:14.353 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kyrasarii/.config/usr/share/wlogout/icons/lock.png'
+	at Yr._handleError (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:132:21963)
+	at Object.stat (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:132:19636)
+2025-08-08 20:27:34.706 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-08 20:27:34.724 [error] Error: Channel has been closed
+	at n (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:3268)
+	at Object.appendLine (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:3407)
+	at c (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:123066)
+	at t.deactivate (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:125552)
+	at /usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1864510
+	at t.deactivate (/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1864568)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 1)
+	at async Tkt._deactivateAll (file:///usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:12382)
+2025-08-08 20:27:34.724 [info] Extension host with pid 73633 exiting with code 0

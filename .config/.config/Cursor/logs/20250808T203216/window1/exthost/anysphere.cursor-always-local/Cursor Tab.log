@@ -1,0 +1,17 @@
+2025-08-08 20:32:20.488 [info] CURSOR LOG: Finished creating provider!
+2025-08-08 20:32:43.065 [info] CURSOR LOG: requestId 2789cf4d-4097-4cfc-8770-e5dc5eb192f0  
+2025-08-08 20:32:43.653 [info] CURSOR LOG: Done streaming cpp with id 2789cf4d-4097-4cfc-8770-e5dc5eb192f0
+2025-08-08 20:32:43.654 [info] CPP RT LOG: Time taken for streaming cpp 608.825927734375 with request 2789cf4d-4097-4cfc-8770-e5dc5eb192f0
+2025-08-08 20:32:43.654 [info] CPP Request Log with id 2789cf4d-4097-4cfc-8770-e5dc5eb192f0
+2025-08-08 20:32:43.654 [info] =======>Model output 
+@@ wallust/templates/wlogout.css:0
+-|/* CSS variables for wlogout with wallust
++|/* CSS variables for wlogout with wallust
+2025-08-08 20:32:43.654 [info] =======>Debug stream time 61.48760300013237
+2025-08-08 20:32:43.654 [info] =======>Debug ttft time 61.07325100013986
+2025-08-08 20:32:43.654 [info] Average of latest 20 ttft time 61.07325100013986
+2025-08-08 20:32:43.654 [info] Average of latest 20 stream time 61.48760300013237
+2025-08-08 20:32:43.654 [info] Average of latest 20 total time NaN
+2025-08-08 20:32:43.654 [info] Average of latest 20 client time 608.825927734375
+2025-08-08 20:32:43.654 [info] Average of latest 20 discrepencies NaN
+2025-08-08 20:32:43.654 [info] CPP RT LOG: All stats {"streamingtime":608.825927734375,"actualTtftFromStart":616.63671875,"timeTillServerRequest":68.511962890625,"requestToTtft":548.124755859375,"totalTime":676.0546875}

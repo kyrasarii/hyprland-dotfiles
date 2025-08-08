@@ -1,0 +1,77 @@
+@import "colors.css";
+
+* {
+    font-family: "Fira Code", "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 6 Free Solid", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+window {
+    margin: 0px;
+    border: 2px solid @color1;
+    background-color: alpha(@background, 0.95);
+    border-radius: 10px;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: @foreground;
+    background-color: alpha(@color0, 0.8);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#input image {
+    color: @color12;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: @foreground;
+    background-color: transparent;
+}
+
+#entry {
+    margin: 2px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#entry:selected {
+    background-color: alpha(@color12, 0.3);
+    border: 1px solid @color12;
+}
+
+#entry:selected #text {
+    color: @color12;
+}
+
+#entry image {
+    margin-right: 10px;
+}
+
+#entry:selected image {
+    color: @color12;
+}
