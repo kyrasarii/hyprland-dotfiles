@@ -22,7 +22,7 @@ This setup integrates **Wallust's color schemes** into various components, ensur
 ### 🐠 **Fish Shell**  
 - A user-friendly shell featuring **auto-suggestions** and **syntax highlighting**, now beautifully themed.
 
-### 🔍 **Wofi**  
+### 🔍 **Fuzzel**  
 - A **dmenu-like launcher for Wayland**, designed to blend seamlessly with your desktop aesthetic.
 
 ### 📝 **LazyVim**  
