@@ -16,11 +16,11 @@ makepkg -si --noconfirm
 # Install packages with pacman
 echo "Updating system and installing main packages with pacman..."
 sudo pacman -Syu --noconfirm
-sudo pacman -S --noconfirm bluez bluez-utils brightnessctl dunst feh firefox fish git grim gst-plugin-pipewire htop hyprland hyprpicker kitty libpulse ly neovim playerctl polkit-kde-agent qt5-wayland qt6-wayland slurp smartmontools swww ttf-fira-code uwsm vim waybar wget wireplumber wofi xdg-desktop-portal-hyprland xdg-utils xorg-server xorg-xinit yazi zenity
+sudo pacman -S --noconfirm bluez bluez-utils brightnessctl btop btrfs-progs dkms dunst efibootmgr feh firefox fish fuzzel fzf git grim gst-plugin-pipewire htop hyprland hyprpicker imagemagick intel-ucode iwd kitty libpulse libva-nvidia-driver linux linux-firmware linux-headers ly neovim network-manager-applet networkmanager npm nvidia-dkms pipewire pipewire-alsa pipewire-jack pipewire-pulse playerctl polkit-kde-agent power-profiles-daemon python-gobject qt5-wayland qt5ct qt6-wayland qt6ct slurp smartmontools sof-firmware swww ttf-fira-code unzip uwsm vim waybar wget wireless_tools wireplumber xdg-desktop-portal-hyprland xdg-utils xorg-server xorg-xinit yazi zenity zip zram-generator
 
-# Install packages with paru
-echo "Installing additional packages with paru..."
-paru -S --noconfirm pfetch wallust
+# Install AUR packages with paru
+echo "Installing AUR packages with paru..."
+paru -S --noconfirm adw-gtk-theme kvantum nwg-look pfetch wallust wlogout
 
 # Copy config files
 echo "Copying configuration files..."
