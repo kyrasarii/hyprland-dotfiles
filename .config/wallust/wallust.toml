@@ -39,11 +39,10 @@ palette = "dark"
 #alpha = 100
 
 [templates]
-css = { src = "colors.css", dst = "~/.config/colors/colors.css" }
-json = { src = "colors.json", dst = "~/.config/colors/colors.json"}
-dunstrc = { src = "dunstrc", dst = "~/.config/dunst/colors"}
-kitty = { src = 'kitty.conf', dst ='~/.config/kitty/colors.conf'}
-waybar = { src = "waybar.css", dst = "~/.config/waybar/colors.css" }
-hypr = { src = "hyprland.conf", dst = "~/.config/hypr/colors.conf" }
-wlogout = { src = "wlogout.css", dst = "~/.config/wlogout/colors.css" }
-fuzzel = { template = "fuzzel.ini", target = "~/.config/fuzzel/colors.ini" }
+css = { src = "color", dst = "~/.config/hypr/colors.css" }
+kitty = { src = 'kitty', dst ='~/.config/kitty/colors.conf'}
+waybar = { src = "waybar", dst = "~/.config/waybar/colors.css" }
+hypr = { src = "hyprland", dst = "~/.config/hypr/colors.conf" }
+mako = { src = "mako", dst = "~/.config/mako/config" }
+wlogout = { src = "wlogout", dst = "~/.config/wlogout/colors.css" }
+fuzzel = { template = "fuzzel", target = "~/.config/fuzzel/colors.ini" }

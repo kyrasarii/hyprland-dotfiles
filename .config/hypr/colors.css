@@ -1,0 +1,31 @@
+/* CSS variables for wallust
+ * You can use this template by adding the following to wallust.toml:
+css = { src = "colors.css", dst = "~/.config/" }
+ */
+
+:root {
+    --wallpaper: url("/home/kyrasarii/Wallpapers/66.png");
+
+    /* Special */
+    --background: #130F16;
+    --foreground: #FFF5AD;
+    --cursor: #98C7BE;
+
+    /* Colors */
+    --color0:  #3B383E;
+    --color1:  #C35F18;
+    --color2:  #329ACF;
+    --color3:  #33A1D3;
+    --color4:  #35A9DB;
+    --color5:  #FED608;
+    --color6:  #FEE213;
+    --color7:  #F6E881;
+    --color8:  #ACA25A;
+    --color9:  #C35F18;
+    --color10: #329ACF;
+    --color11: #33A1D3;
+    --color12: #35A9DB;
+    --color13: #FED608;
+    --color14: #FEE213;
+    --color15: #F6E881;
+}

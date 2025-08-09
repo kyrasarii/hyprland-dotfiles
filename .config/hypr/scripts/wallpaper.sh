@@ -39,8 +39,5 @@ $SWWW_CMD "$selected_path" --transition-type grow --transition-duration 2 --tran
 
 # Run wallust to change the color scheme based on the new wallpaper
 $WALLUST_CMD "$selected_path"
-
-# Save the path of the selected wallpaper to a file for Hyprlock to read
-echo "$selected_path" >"$CURRENT_WALLPAPER_FILE"
-
+makoctl reload
 echo "Wallpaper changed to: $selected_path with a 'grow' effect."

@@ -1,0 +1,22 @@
+layer=overlay
+background-color=#130F16
+border-size=2
+border-color=#329ACF
+border-radius=10
+default-timeout=5000
+ignore-timeout=1
+font=Fira Code 10
+text-color=#FFF5AD
+outer-margin=0,5,15,0
+anchor=bottom-right
+
+[urgency=high]
+border-color=#35A9DB
+default-timeout=0
+
+[urgency=low]
+border-color=#C35F18
+
+[category=mpd]
+default-timeout=2000
+group-by=category
