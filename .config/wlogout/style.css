@@ -18,15 +18,15 @@ window {
 }
 
 button {
-    border-radius: 25px;
-    border-color: @color1;
+  border-radius: 25px;
+  border-color: @color1;
 	background-color: @window-background;
 	border-style: solid;
 	border-width: 0px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 20%;
-	font-family: "Fira Code";
+  font-family: "Fira Code";
 }
 
 button:focus, button:active, button:hover {

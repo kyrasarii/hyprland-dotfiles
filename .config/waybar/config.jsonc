@@ -10,7 +10,7 @@
   // For Icons Alignments use "<span font_family='Material Icons' rise='-4000' size='large'>" before putting icons in format section.
   "modules-left": ["clock#2", "clock"],
   "modules-center": ["hyprland/workspaces"],
-  "modules-right": ["tray", "network", "backlight", "pulseaudio", "battery"],
+  "modules-right": ["network", "backlight", "pulseaudio", "battery"],
 
   "hyprland/workspaces": {
     "disable-scroll": true,
