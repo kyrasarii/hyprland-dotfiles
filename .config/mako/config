@@ -1,21 +1,21 @@
 layer=overlay
-background-color=#130F16
+background-color=#080016
 border-size=2
-border-color=#329ACF
+border-color=#DB7572
 border-radius=10
 default-timeout=5000
 ignore-timeout=1
 font=Fira Code 10
-text-color=#FFF5AD
+text-color=#F6E5C4
 outer-margin=0,5,15,0
 anchor=bottom-right
 
 [urgency=high]
-border-color=#35A9DB
+border-color=#90BBB2
 default-timeout=0
 
 [urgency=low]
-border-color=#C35F18
+border-color=#E46666
 
 [category=mpd]
 default-timeout=2000
