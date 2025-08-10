@@ -28,7 +28,7 @@ This setup integrates **Wallust's color schemes** into various components, ensur
 ### 📝 **LazyVim**  
 - My **Neovim configuration**, offering a powerful and aesthetically pleasing coding environment.
 
-### 🔔 **Dunst**  
+### 🔔 **Mako**  
 - A lightweight **notification daemon**, ensuring your alerts stay on-theme and stylish.
 
 ---
