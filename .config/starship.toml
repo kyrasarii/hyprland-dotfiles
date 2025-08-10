@@ -2,15 +2,15 @@
 # Place this in ~/.config/wallust/templates/starship.toml
 
 format = """
-[](#55535D)\
+[](#4A4B51)\
 $os\
 $username\
-[](bg:#343163 fg:#55535D)\
+[](bg:#1B2E4F fg:#4A4B51)\
 $directory\
-[](fg:#343163 bg:#574C84)\
+[](fg:#1B2E4F bg:#1B2F50)\
 $git_branch\
 $git_status\
-[](fg:#574C84 bg:#565889)\
+[](fg:#1B2F50 bg:#1D3051)\
 $c\
 $elixir\
 $elm\
@@ -23,11 +23,11 @@ $nodejs\
 $nim\
 $rust\
 $scala\
-[](fg:#565889 bg:#836CA4)\
+[](fg:#1D3051 bg:#7882BB)\
 $docker_context\
-[](fg:#836CA4 bg:#B58CCB)\
+[](fg:#7882BB bg:#868ABA)\
 $time\
-[ ](fg:#B58CCB)\
+[ ](fg:#868ABA)\
 """
 
 # Disable the blank line at the start of the prompt
@@ -37,19 +37,19 @@ $time\
 # and use the os module below
 [username]
 show_always = true
-style_user = "bg:#55535D"
-style_root = "bg:#55535D"
+style_user = "bg:#4A4B51"
+style_root = "bg:#4A4B51"
 format = '[$user ]($style)'
 disabled = false
 
 # An alternative to the username module which displays a symbol that
 # represents the current operating system
 [os]
-style = "bg:#55535D"
+style = "bg:#4A4B51"
 disabled = true # Disabled by default
 
 [directory]
-style = "bg:#343163"
+style = "bg:#1B2E4F"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -69,84 +69,84 @@ truncation_symbol = "…/"
 
 [c]
 symbol = " "
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [cpp]
 symbol = " "
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
 symbol = " "
-style = "bg:#836CA4"
+style = "bg:#7882BB"
 format = '[ $symbol $context ]($style)'
 
 [elixir]
 symbol = " "
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [elm]
 symbol = " "
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:#574C84"
+style = "bg:#1B2F50"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#574C84"
+style = "bg:#1B2F50"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
 symbol = " "
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [gradle]
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = "󰆥 "
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
 symbol = " "
-style = "bg:#565889"
+style = "bg:#1D3051"
 format = '[ $symbol ($version) ]($style)'
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "bg:#B58CCB"
+style = "bg:#868ABA"
 format = '[ ♥ $time ]($style)'

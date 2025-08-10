@@ -4,28 +4,28 @@ css = { src = "colors.css", dst = "~/.config/" }
  */
 
 :root {
-    --wallpaper: url("/home/kyrasarii/Wallpapers/193.png");
+    --wallpaper: url("/home/kyrasarii/Wallpapers/213.png");
 
     /* Special */
-    --background: #302E38;
-    --foreground: #E7E2F1;
-    --cursor: #9F97BA;
+    --background: #24262B;
+    --foreground: #F6EFF4;
+    --cursor: #898FA2;
 
     /* Colors */
-    --color0:  #55535D;
-    --color1:  #343163;
-    --color2:  #574C84;
-    --color3:  #565889;
-    --color4:  #836CA4;
-    --color5:  #B58CCB;
-    --color6:  #BAADD6;
-    --color7:  #D4CEE2;
-    --color8:  #94909E;
-    --color9:  #343163;
-    --color10: #574C84;
-    --color11: #565889;
-    --color12: #836CA4;
-    --color13: #B58CCB;
-    --color14: #BAADD6;
-    --color15: #D4CEE2;
+    --color0:  #4A4B51;
+    --color1:  #1B2E4F;
+    --color2:  #1B2F50;
+    --color3:  #1D3051;
+    --color4:  #7882BB;
+    --color5:  #868ABA;
+    --color6:  #E5D2E1;
+    --color7:  #E9E0E7;
+    --color8:  #A39DA2;
+    --color9:  #1B2E4F;
+    --color10: #1B2F50;
+    --color11: #1D3051;
+    --color12: #7882BB;
+    --color13: #868ABA;
+    --color14: #E5D2E1;
+    --color15: #E9E0E7;
 }
