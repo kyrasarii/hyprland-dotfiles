@@ -16,11 +16,89 @@ makepkg -si --noconfirm
 # Install packages with pacman
 echo "Updating system and installing main packages with pacman..."
 sudo pacman -Syu --noconfirm
-sudo pacman -S --noconfirm bluez bluez-utils kvantum nwg-look brightnessctl btop btrfs-progs libreoffice-fresh dkms dunst efibootmgr feh fish fuzzel fzf git grim gst-plugin-pipewire htop hyprland hyprpicker imagemagick intel-ucode iwd kitty libpulse libva-nvidia-driver linux linux-firmware linux-headers ly neovim network-manager-applet networkmanager npm nvidia-dkms pipewire pipewire-alsa pipewire-jack pipewire-pulse playerctl polkit-kde-agent power-profiles-daemon python-gobject qt5-wayland qt5ct qt6-wayland qt6ct slurp smartmontools sof-firmware swww ttf-fira-code unzip uwsm vim waybar wget wireless_tools wireplumber xdg-desktop-portal-hyprland xdg-utils xorg-server xorg-xinit yazi zenity zip zram-generator
+sudo pacman -S --noconfirm \
+  adw-gtk-theme base \
+  base-devel \
+  blueman \
+  bluez \
+  bluez-utils \
+  brightnessctl \
+  btop \
+  btrfs-progs \
+  dkms \
+  efibootmgr \
+  feh \
+  fish \
+  fuzzel \
+  fzf \
+  git \
+  grim \
+  gst-plugin-pipewire \
+  hyprland \
+  hyprpicker \
+  imagemagick \
+  intel-ucode \
+  iwd \
+  kitty \
+  kvantum \
+  lazygit \
+  libpulse \
+  libreoffice-fresh \
+  libva-nvidia-driver \
+  linux \
+  linux-firmware \
+  linux-headers \
+  ly \
+  mako \
+  mpv \
+  neovim \
+  network-manager-applet \
+  networkmanager \
+  npm \
+  nvidia-dkms \
+  nwg-look \
+  pavucontrol \
+  pipewire \
+  pipewire-alsa \
+  pipewire-jack \
+  pipewire-pulse \
+  playerctl \
+  polkit-kde-agent \
+  power-profiles-daemon \
+  python-gobject \
+  qt5-wayland \
+  qt5ct \
+  qt6-wayland \
+  qt6ct \
+  slurp \
+  smartmontools \
+  sof-firmware \
+  swww \
+  ttf-fira-code \
+  unzip \
+  uwsm \
+  vi \
+  vim \
+  vulkan-headers \
+  vulkan-tools \
+  waybar \
+  wf-recorder \
+  wget \
+  wireless_tools \
+  wireplumber \
+  xdg-desktop-portal-hyprland \
+  xdg-utils \
+  yazi \
+  zenity \
+  zram-generator
 
 # Install AUR packages with paru
 echo "Installing AUR packages with paru..."
-paru -S --noconfirm adw-gtk-theme pfetch wallust wlogout tty-clock zen-browser-bin
+paru -S --noconfirm \
+  pfetch \ 
+wallust \
+  wlogout \
+  zen-browser-bin
 
 # Copy config files
 echo "Copying configuration files..."
