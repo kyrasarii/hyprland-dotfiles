@@ -4,6 +4,8 @@ Welcome to my **personal Hyprland configuration**, crafted with the beautiful co
 
 ## Showcase
 
+https://github.com/user-attachments/assets/5ad62997-190d-4cf7-81b6-6b2932d0526c
+
 ---
 
 ## 🚀 **Features**
