@@ -1,0 +1,212 @@
+-- Wallust Neovim colorscheme template
+-- Save this as ~/.config/wallust/templates/nvim.lua
+-- Add to your wallust.toml:
+-- nvim = { src = "nvim.lua", dst = "~/.config/nvim/lua/colors/wallust.lua" }
+
+local M = {}
+
+-- Wallust color palette
+local colors = {
+    -- Special colors
+    background = "{{background}}",
+    foreground = "{{foreground}}",
+    cursor = "{{cursor}}",
+    
+    -- Standard 16 colors
+    color0  = "{{color0}}",   -- black
+    color1  = "{{color1}}",   -- red
+    color2  = "{{color2}}",   -- green
+    color3  = "{{color3}}",   -- yellow
+    color4  = "{{color4}}",   -- blue
+    color5  = "{{color5}}",   -- magenta
+    color6  = "{{color6}}",   -- cyan
+    color7  = "{{color7}}",   -- white
+    color8  = "{{color8}}",   -- bright black
+    color9  = "{{color9}}",   -- bright red
+    color10 = "{{color10}}",  -- bright green
+    color11 = "{{color11}}",  -- bright yellow
+    color12 = "{{color12}}",  -- bright blue
+    color13 = "{{color13}}",  -- bright magenta
+    color14 = "{{color14}}",  -- bright cyan
+    color15 = "{{color15}}",  -- bright white
+}
+
+local function set_highlights()
+    local groups = {
+        -- Base highlights
+        Normal = { fg = colors.foreground, bg = colors.background },
+        NormalFloat = { fg = colors.foreground, bg = colors.color0 },
+        ColorColumn = { bg = colors.color0 },
+        Cursor = { fg = colors.background, bg = colors.cursor },
+        CursorLine = { bg = colors.color0 },
+        CursorColumn = { bg = colors.color0 },
+        Directory = { fg = colors.color4 },
+        DiffAdd = { fg = colors.color2, bg = colors.background },
+        DiffChange = { fg = colors.color3, bg = colors.background },
+        DiffDelete = { fg = colors.color1, bg = colors.background },
+        DiffText = { fg = colors.color4, bg = colors.background },
+        ErrorMsg = { fg = colors.color1, bg = colors.background },
+        VertSplit = { fg = colors.color8 },
+        WinSeparator = { fg = colors.color8 },
+        Folded = { fg = colors.color8, bg = colors.color0 },
+        FoldColumn = { fg = colors.color8, bg = colors.background },
+        SignColumn = { fg = colors.color8, bg = colors.background },
+        IncSearch = { fg = colors.background, bg = colors.color3 },
+        LineNr = { fg = colors.color8 },
+        CursorLineNr = { fg = colors.color11 },
+        MatchParen = { fg = colors.color6, bg = colors.color0 },
+        ModeMsg = { fg = colors.color2 },
+        MoreMsg = { fg = colors.color2 },
+        NonText = { fg = colors.color8 },
+        PMenu = { fg = colors.foreground, bg = colors.color0 },
+        PMenuSel = { fg = colors.background, bg = colors.color4 },
+        PMenuSbar = { bg = colors.color8 },
+        PMenuThumb = { bg = colors.color7 },
+        Question = { fg = colors.color2 },
+        Search = { fg = colors.background, bg = colors.color3 },
+        SpecialKey = { fg = colors.color8 },
+        SpellBad = { fg = colors.color1, underline = true },
+        SpellCap = { fg = colors.color4, underline = true },
+        SpellLocal = { fg = colors.color6, underline = true },
+        SpellRare = { fg = colors.color5, underline = true },
+        StatusLine = { fg = colors.foreground, bg = colors.color0 },
+        StatusLineNC = { fg = colors.color8, bg = colors.color0 },
+        TabLine = { fg = colors.color8, bg = colors.color0 },
+        TabLineFill = { fg = colors.color8, bg = colors.color0 },
+        TabLineSel = { fg = colors.foreground, bg = colors.background },
+        Title = { fg = colors.color4 },
+        Visual = { bg = colors.color8 },
+        VisualNOS = { bg = colors.color8 },
+        WarningMsg = { fg = colors.color1 },
+        WildMenu = { fg = colors.background, bg = colors.color4 },
+
+        -- Syntax highlighting
+        Comment = { fg = colors.color8, italic = true },
+        Constant = { fg = colors.color1 },
+        String = { fg = colors.color2 },
+        Character = { fg = colors.color2 },
+        Number = { fg = colors.color1 },
+        Boolean = { fg = colors.color1 },
+        Float = { fg = colors.color1 },
+        Identifier = { fg = colors.color4 },
+        Function = { fg = colors.color6 },
+        Statement = { fg = colors.color5 },
+        Conditional = { fg = colors.color5 },
+        Repeat = { fg = colors.color5 },
+        Label = { fg = colors.color5 },
+        Operator = { fg = colors.color5 },
+        Keyword = { fg = colors.color5 },
+        Exception = { fg = colors.color5 },
+        PreProc = { fg = colors.color3 },
+        Include = { fg = colors.color3 },
+        Define = { fg = colors.color3 },
+        Macro = { fg = colors.color3 },
+        PreCondit = { fg = colors.color3 },
+        Type = { fg = colors.color4 },
+        StorageClass = { fg = colors.color4 },
+        Structure = { fg = colors.color4 },
+        Typedef = { fg = colors.color4 },
+        Special = { fg = colors.color6 },
+        SpecialChar = { fg = colors.color6 },
+        Tag = { fg = colors.color1 },
+        Delimiter = { fg = colors.color7 },
+        SpecialComment = { fg = colors.color8, italic = true },
+        Debug = { fg = colors.color1 },
+        Underlined = { fg = colors.color4, underline = true },
+        Ignore = { fg = colors.color8 },
+        Error = { fg = colors.color1, bg = colors.background },
+        Todo = { fg = colors.color3, bg = colors.background, bold = true },
+
+        -- LSP highlights
+        DiagnosticError = { fg = colors.color1 },
+        DiagnosticWarn = { fg = colors.color3 },
+        DiagnosticInfo = { fg = colors.color4 },
+        DiagnosticHint = { fg = colors.color6 },
+        DiagnosticVirtualTextError = { fg = colors.color1 },
+        DiagnosticVirtualTextWarn = { fg = colors.color3 },
+        DiagnosticVirtualTextInfo = { fg = colors.color4 },
+        DiagnosticVirtualTextHint = { fg = colors.color6 },
+
+        -- Tree-sitter highlights
+        ["@comment"] = { link = "Comment" },
+        ["@constant"] = { link = "Constant" },
+        ["@string"] = { link = "String" },
+        ["@number"] = { link = "Number" },
+        ["@boolean"] = { link = "Boolean" },
+        ["@function"] = { link = "Function" },
+        ["@function.builtin"] = { fg = colors.color6 },
+        ["@function.macro"] = { fg = colors.color3 },
+        ["@parameter"] = { fg = colors.color7 },
+        ["@method"] = { link = "Function" },
+        ["@field"] = { fg = colors.color7 },
+        ["@property"] = { fg = colors.color7 },
+        ["@constructor"] = { fg = colors.color4 },
+        ["@conditional"] = { link = "Conditional" },
+        ["@repeat"] = { link = "Repeat" },
+        ["@label"] = { link = "Label" },
+        ["@operator"] = { link = "Operator" },
+        ["@keyword"] = { link = "Keyword" },
+        ["@exception"] = { link = "Exception" },
+        ["@variable"] = { fg = colors.foreground },
+        ["@type"] = { link = "Type" },
+        ["@type.definition"] = { link = "Typedef" },
+        ["@storageclass"] = { link = "StorageClass" },
+        ["@structure"] = { link = "Structure" },
+        ["@namespace"] = { fg = colors.color5 },
+        ["@include"] = { link = "Include" },
+        ["@preproc"] = { link = "PreProc" },
+        ["@debug"] = { link = "Debug" },
+        ["@tag"] = { link = "Tag" },
+        ["@tag.attribute"] = { fg = colors.color3 },
+        ["@tag.delimiter"] = { fg = colors.color8 },
+
+        -- Git signs
+        GitSignsAdd = { fg = colors.color2 },
+        GitSignsChange = { fg = colors.color3 },
+        GitSignsDelete = { fg = colors.color1 },
+
+        -- Telescope
+        TelescopeBorder = { fg = colors.color8 },
+        TelescopeSelection = { bg = colors.color0 },
+        TelescopeSelectionCaret = { fg = colors.color4 },
+        TelescopeMultiSelection = { fg = colors.color5 },
+        TelescopeNormal = { fg = colors.foreground },
+        TelescopeMatching = { fg = colors.color4, bold = true },
+        TelescopePromptPrefix = { fg = colors.color4 },
+
+        -- Neo-tree
+        NeoTreeNormal = { fg = colors.foreground, bg = colors.background },
+        NeoTreeNormalNC = { fg = colors.foreground, bg = colors.background },
+        NeoTreeDirectoryName = { fg = colors.color4 },
+        NeoTreeDirectoryIcon = { fg = colors.color4 },
+        NeoTreeRootName = { fg = colors.color5, bold = true },
+        NeoTreeFileName = { fg = colors.foreground },
+        NeoTreeFileIcon = { fg = colors.color6 },
+        NeoTreeModified = { fg = colors.color3 },
+        NeoTreeGitAdded = { fg = colors.color2 },
+        NeoTreeGitDeleted = { fg = colors.color1 },
+        NeoTreeGitModified = { fg = colors.color3 },
+        NeoTreeGitConflict = { fg = colors.color1, bold = true },
+        NeoTreeGitUntracked = { fg = colors.color8 },
+        NeoTreeIndentMarker = { fg = colors.color8 },
+        NeoTreeExpander = { fg = colors.color8 },
+    }
+
+    for group, opts in pairs(groups) do
+        vim.api.nvim_set_hl(0, group, opts)
+    end
+end
+
+function M.setup()
+    -- Clear existing highlights
+    if vim.g.colors_name then
+        vim.cmd("highlight clear")
+    end
+
+    vim.opt.termguicolors = true
+    vim.g.colors_name = "wallust"
+
+    set_highlights()
+end
+
+return M

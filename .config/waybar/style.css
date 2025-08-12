@@ -14,7 +14,7 @@ window#waybar {
 
 tooltip {
   background: rgba(0, 0, 0, 0.1);
-  border: 5px solid @color12;
+  border: 5px solid @foreground;
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -31,62 +31,62 @@ tooltip {
 #battery.warning
 #battery.critical
 #workspaces button {
-  color: @color12;
+  color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
   transition: all 0.5s ease-in-out;
 }
 
 #workspaces button.active {
-  color: @color12;
+  color: @foreground;
   transition: all 0.5s ease-in-out;
 }
 
 #clock.2 {
-  color: @color12;
+  color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
 }
 
 #custom-separator {
-  color: @color12;
+  color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #clock {
-  color: @color12;
+  color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #tray {
-  color: @color12;
+  color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #network {
-  color: @color12;
+  color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #backlight {
-  color: @color12;
+  color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #pulseaudio {
-  color: @color12;
+  color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #battery {
-  color: @color12;
+  color: @foreground;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;

@@ -95,7 +95,6 @@ sudo pacman -S --noconfirm \
 # Install AUR packages with paru
 echo "Installing AUR packages with paru..."
 paru -S --noconfirm \
-  pfetch \ 
   wallust \
   wlogout \
   zen-browser-bin
