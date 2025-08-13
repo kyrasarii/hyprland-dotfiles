@@ -4,6 +4,10 @@ Welcome to my **personal Hyprland configuration**, crafted with the beautiful co
 
 ## Showcase
 
+<img width="1920" height="1080" alt="screenshot-2025-08-13-21-55-39" src="https://github.com/user-attachments/assets/7fd96163-b6af-4351-a7c6-7d3ffa414b86" />
+<img width="1920" height="1080" alt="screenshot-2025-08-13-21-55-18" src="https://github.com/user-attachments/assets/7b38140e-45f9-47e2-84ff-45e147bd61aa" />
+<img width="1920" height="1080" alt="screenshot-2025-08-13-21-54-58" src="https://github.com/user-attachments/assets/53039ab5-953d-4f87-8fc6-42eaa42c2fd0" />
+
 ---
 
 ## 🚀 **Features**
