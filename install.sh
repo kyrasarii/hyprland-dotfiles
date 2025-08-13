@@ -28,6 +28,7 @@ sudo pacman -S --noconfirm \
   dkms \
   efibootmgr \
   feh \
+  firefox \
   fish \
   fuzzel \
   fzf \
@@ -97,7 +98,6 @@ echo "Installing AUR packages with paru..."
 paru -S --noconfirm \
   wallust \
   wlogout \
-  zen-browser-bin
 
 # Copy config files
 echo "Copying configuration files..."
