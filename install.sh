@@ -97,8 +97,9 @@ sudo pacman -S --noconfirm \
 echo "Installing AUR packages with paru..."
 paru -S --noconfirm \
   wallust \
-  wlogout \
+  wlogout
 
+cd
 # Copy config files
 echo "Copying configuration files..."
 cp -r ~/hyprland-dotfiles/.config/* ~/.config/
