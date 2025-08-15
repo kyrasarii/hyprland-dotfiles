@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-WALLPAPER_DIR="$HOME/Wallpapers"
+WALLPAPER_DIR="$HOME/wallpapers"
 SWWW_CMD="swww img"
 WALLUST_CMD="wallust run"
 CURRENT_WALLPAPER_FILE="$HOME/.config/hypr/current-wallpaper"
